@@ -10,14 +10,7 @@
       href="../assets/favicon.svg"
       type="image/svg+xml"
     />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="../assets/favicon.svg"
-      type="image/svg+xml"
-    />
-    <link rel="icon" href="./files/logo.png" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -42,15 +35,29 @@
       <img src="../assets/logo.svg" alt="logo" />
     </header>
     <div class="fixed">
-      <nav id="navbar">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="home.html#Destination">Destination</a></li>
-          <li><a href="home.html#package">Packages</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="contact_us.html">Contact Us</a></li>
-          <li><a href="signup.html">Sign In / Sign Up</a></li>
-        </ul>
+      <nav id="navbar" aria-label="Primary navigation">
+        <div class="nav-container">
+          <button
+            class="nav-toggle"
+            id="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="home.html#Destination">Destination</a></li>
+            <li><a href="home.html#package">Packages</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="signup.html">Sign In / Sign Up</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
 
@@ -67,7 +74,7 @@
       </div>
     </div>
 
-    <footer id = "about">
+    <footer id="about">
       <div class="upper-footer">
         <div class="container">
           <div class="some-text">
