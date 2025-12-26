@@ -12,7 +12,7 @@ Welcome to Tourly, the go-to platform for all your travel needs! Whether you're 
 
 ## Live Demo
 
-Check out the live demo of Tourly: [Tourly Live Demo](https://zyadelnaghy.github.io/Practical-Web-Project/HTML/home.html)
+Check out the live demo of Tourly: [Tourly Live Demo](https://zyadelnaghy.github.io/Tourly/HTML/home)
 
 ## Video Preview
 
