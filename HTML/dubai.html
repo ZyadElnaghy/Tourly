@@ -65,15 +65,33 @@
         <img src="../assets/logo.svg" alt="logo" />
       </header>
       <div class="fixed">
-        <nav id="navbar" style="background-color: transparent">
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="home.html#Destination">Destination</a></li>
-            <li><a href="home.html#package">Packages</a></li>
-            <li><a href="About_Us.html">About Us</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
-            <li><a href="signup.html">Sign In / Sign Up</a></li>
-          </ul>
+        <nav
+          id="navbar"
+          style="background-color: transparent"
+          aria-label="Primary navigation"
+        >
+          <div class="nav-container">
+            <button
+              class="nav-toggle"
+              id="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="nav-menu"
+              aria-label="Toggle navigation"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="home.html#Destination">Destination</a></li>
+              <li><a href="home.html#package">Packages</a></li>
+              <li><a href="About_Us.html">About Us</a></li>
+              <li><a href="contact_us.html">Contact Us</a></li>
+              <li><a href="signup.html">Sign In / Sign Up</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
 
